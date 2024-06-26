@@ -2,7 +2,6 @@
 #include "levenshtein.h"
 
 int main() {
-	// names taken from: https://www.babycenter.com/baby-names/most-popular/top-baby-names-2002
 	FILE *file_ptr = fopen("names.txt", "r");
 	if (!file_ptr) {
 		printf("ERROR: names file could not be opened\n");
